@@ -1,8 +1,8 @@
 eval "$(conda shell.bash hook)" # Necessary to activate conda env, can skip if using no environments
 conda activate flower # Necessary to activate conda env, can skip if using no environments
 cd Desktop # Change current working directory
-export AWS_ACCESS_KEY_ID="AKIAWWZYTIF5536ZJLBI" # Id obtained from Care Website
-export AWS_SECRET_ACCESS_KEY="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" # Key obtained from Care Website
+export AWS_ACCESS_KEY_ID="" # Id obtained from Care Website
+export AWS_SECRET_ACCESS_KEY="" # Key obtained from Care Website
 export BUCKET_NAME="empatica-us-east-1-prod-data" # Bucket name obtained from Care Website
 export PREFIX_VERSION="v2" # First v2 in the bucket path
 export ORGANIZATION_ID="1440" # Organization Id in the Care Website
